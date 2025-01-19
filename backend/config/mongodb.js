@@ -3,11 +3,11 @@ import mongoose from "mongoose";
 const connectDB = async () => {
 
     mongoose.connection.on('connected', () => {
-        console.log('MongoDB connected')
+        console.log('DB connected')
     })
 
-    await mongoose.connect(`${process.env.MONGODB_URI}/ecommerce`)
+    await mongoose.connect(`${process.env.MONGODB_URI}/online-store`)
 
 }
 
-export default connectDB;
+export default connectDB
