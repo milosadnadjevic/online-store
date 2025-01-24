@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import Title from '../components/Title'
 // import { navigate } from '@reach/router'
@@ -28,7 +28,7 @@ const Cart = () => {
       setCartData(tempData);
     }
   }, [cartItems, products])
-  
+
   return (
     <div className='border-t pt-14'>
 
