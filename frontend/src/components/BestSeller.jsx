@@ -20,8 +20,8 @@ const BestSeller = () => {
             <div className='text-center text-3xl py-8'>
                 <Title text1={'BEST'} text2={'SELLERS'} />
                 <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-                Explore our best sellers collection, featuring the most loved and top-rated styles that our customers can't get enough of. 
-                From everyday essentials to statement pieces, these fashion favorites are a must-have for your wardrobe.
+                    Explore our best sellers collection, featuring the most loved and top-rated styles that our customers can't get enough of.
+                    From everyday essentials to statement pieces, these fashion favorites are a must-have for your wardrobe.
                 </p>
             </div>
 
